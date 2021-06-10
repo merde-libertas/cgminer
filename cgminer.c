@@ -1750,7 +1750,7 @@ static struct opt_table opt_config_table[] = {
 		     "Ramp step interval range 1-600"),
 #endif
 #ifdef HAVE_LIBCURL
-	OPT_WITH_ARG("--btc-address",
+	OPT_WITH_ARG("--mrd-address",
 		     opt_set_charp, NULL, &opt_btc_address,
 		     "Set bitcoin target address when solo mining to bitcoind (mandatory)"),
 	OPT_WITH_ARG("--btc-sig",
